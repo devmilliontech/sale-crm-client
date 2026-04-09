@@ -73,7 +73,7 @@ This project is the client-side application for a CRM system. It provides:
 The app depends on a backend URL stored in environment variables. Create a `.env` file in the project root with:
 
 ```env
-VITE_BACKEND_URL=https://your-backend-url.com
+VITE_BACKEND_URL= https://sales-crm-backend-irz0.onrender.com/api/v1
 ```
 
 This is used by Axios calls in login, OTP verification, dashboard data, agreements, and admin APIs.
