@@ -1,0 +1,51 @@
+
+/* .accentBtn{
+    background-color: #0099ff;
+} */
+.accentBtn {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #0097fc;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.1s ease, transform 0.2s ease;
+}
+
+.secondaryBtn{
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 2px solid #0097fc;
+  background-color: white;
+  color: #0097fc;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.1s ease, transform 0.2s ease;
+}
+
+.deleBtn{
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 2px solid #fc0000;
+  background-color: #fc0000;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.1s ease, transform 0.2s ease;
+}
+
+.deleBtn:hover{
+  background-color: #c40000;
+  border-color: #c40000;
+
+}
+
+.accentBtn:hover,.secondaryBtn:hover {
+  background-color: #007acc;
+  color: white; /* darker on hover */
+   /* slight zoom effect */
+}

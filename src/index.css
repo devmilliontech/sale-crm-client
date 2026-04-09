@@ -1,0 +1,42 @@
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* For Chrome, Safari, Edge */
+.my-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+ .my-container {
+  scrollbar-width: none; 
+} 
+
+/* For IE / old Edge */
+.my-container {
+  -ms-overflow-style: none;
+}
+
+.page-break {
+  page-break-before: always; /* start on a new page */
+  break-before: page;
+}
+
+.page-break-after {
+  page-break-after: always; /* end with a page break */
+  break-after: page;
+}
+
+@media print {
+  .page-break {
+    display: block;
+  }
+}
+
+
+.recharts-wrapper:focus,
+.recharts-surface:focus,
+.recharts-cartesian-grid:focus {
+  outline: none !important;
+}
+
